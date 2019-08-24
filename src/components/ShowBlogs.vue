@@ -1,6 +1,6 @@
 <template>
   <div v-theme:column="'wide'" id="show-blogs">
-    <h1>所有博客</h1>
+    <h1>的二天工作内容：所有博客</h1>
     <!-- search -->
     <input type="text" v-model="search" placeholder="search something ..." />
     <div v-for="(blog,index) in filterBlogs" :key="index" class="single-blog">
